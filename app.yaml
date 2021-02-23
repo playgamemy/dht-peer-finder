@@ -1,0 +1,5 @@
+runtime: nodejs14
+entrypoint: npm run dynamo
+network:
+  forwarded_ports:
+    - 20000/udp
